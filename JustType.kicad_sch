@@ -12,587 +12,6 @@
 		(comment 1 "by james sa")
 	)
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x02"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:R_Potentiometer_Dual"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "RV"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_Potentiometer_Dual"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 6.35 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 6.35 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Dual potentiometer"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "resistor variable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Potentiometer*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Potentiometer_Dual_0_1"
-				(rectangle
-					(start -8.89 -1.524)
-					(end -3.81 -3.556)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 0) (xy -6.35 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 0) (xy -6.35 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 0) (xy -5.842 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.588 0.508) (xy -5.08 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.572 0.508) (xy -4.064 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.556 0.508) (xy -3.048 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0.508) (xy -2.032 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy -1.016 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 0.508) (xy 0 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 0.508) (xy 1.016 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 0.508) (xy 2.032 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0.508) (xy 3.048 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.556 0.508) (xy 4.064 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.572 0.508) (xy 5.08 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.588 0.508) (xy 6.096 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 0) (xy 6.35 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 0) (xy 6.35 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.604 0.508) (xy 6.858 0.508) (xy 6.35 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 -1.397) (xy -6.858 -0.254) (xy -5.842 -0.254) (xy -6.35 -1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -1.397) (xy 5.842 -0.254) (xy 6.858 -0.254) (xy 6.35 -1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 3.81 -1.524)
-					(end 8.89 -3.556)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Potentiometer_Dual_1_1"
-				(pin passive line
-					(at -10.16 -2.54 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 2.54 270)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -2.54 180)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -2.54 0)
-					(length 1.27)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 2.54 270)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -2.54 180)
-					(length 1.27)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Diode:1N4448W"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -1592,12 +1011,6 @@
 		)
 	)
 	(junction
-		(at 139.7 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "050bb0ce-e1e4-40c5-a949-9ba94b337362")
-	)
-	(junction
 		(at 165.1 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1622,16 +1035,10 @@
 		(uuid "0fdd673e-77ac-4c94-8fd7-7850428b85f9")
 	)
 	(junction
-		(at 149.86 111.76)
+		(at 210.82 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "116264fb-23bd-4355-8bc3-f696af2af714")
-	)
-	(junction
-		(at 158.75 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "23cf8840-2294-4fe2-b61d-eaf87a3efd1c")
+		(uuid "156aa600-24e1-4b4c-9f60-00b721d538c3")
 	)
 	(junction
 		(at 180.34 76.2)
@@ -1640,16 +1047,10 @@
 		(uuid "2887a441-6596-4a7a-ab22-d1b6729bfa6d")
 	)
 	(junction
-		(at 154.94 86.36)
+		(at 215.9 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2f513958-31bc-48fa-b282-2fdbb7825309")
-	)
-	(junction
-		(at 170.18 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3225403e-bab1-4825-ad19-5b6fb1a3c0f7")
+		(uuid "2bba1764-0f5a-461f-b986-69dfe2aae1e6")
 	)
 	(junction
 		(at 185.42 68.58)
@@ -1664,28 +1065,10 @@
 		(uuid "36edd047-7c65-4cc2-bb2d-02bd0ddc121a")
 	)
 	(junction
-		(at 200.66 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4158d310-1578-430c-9bda-08e68a9811e1")
-	)
-	(junction
 		(at 180.34 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45e4eb71-d6e6-4c55-876f-24734dcf582a")
-	)
-	(junction
-		(at 165.1 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4691125a-e402-4eb8-a272-4ff402a5e201")
-	)
-	(junction
-		(at 119.38 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4fdd1458-1174-4792-b983-5a57c3d0b2e0")
 	)
 	(junction
 		(at 170.18 50.8)
@@ -1724,40 +1107,22 @@
 		(uuid "6b878f6c-69a3-4df3-b826-525e022fbd5e")
 	)
 	(junction
-		(at 195.58 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6bee2301-b6fb-4d76-9ccd-f38cea64626a")
-	)
-	(junction
-		(at 180.34 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "79745099-0354-425f-bfb7-e78563c6e5ca")
-	)
-	(junction
-		(at 127 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7e06b977-bfd9-4083-bc47-c47f31127cad")
-	)
-	(junction
 		(at 195.58 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e99c8e5-1abd-45cc-944a-6c8839210afc")
 	)
 	(junction
-		(at 185.42 106.68)
+		(at 215.9 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "83d2931c-94e8-4be4-bdc0-b7371896744c")
+		(uuid "8d1def5e-f00e-41d0-a24b-19e59133a5a4")
 	)
 	(junction
-		(at 149.86 129.54)
+		(at 210.82 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9b8fdb1e-9efa-415a-b5ce-897ec108fffd")
+		(uuid "990d56d0-70c2-414c-8d45-5407f8595e58")
 	)
 	(junction
 		(at 139.7 68.58)
@@ -1772,16 +1137,16 @@
 		(uuid "a5f805b6-4f0e-41cb-8fba-e35ca4d73a19")
 	)
 	(junction
-		(at 139.7 104.14)
+		(at 210.82 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a8b25346-9793-4c44-8a0b-863ffeabc52c")
+		(uuid "a7abb192-7a72-41d7-afcc-0c5779fe2a99")
 	)
 	(junction
-		(at 195.58 129.54)
+		(at 210.82 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ad46015f-29be-4804-a037-827fbf083a3c")
+		(uuid "acefc52b-e6b5-4d03-b438-38586e6ac1c9")
 	)
 	(junction
 		(at 149.86 76.2)
@@ -1790,10 +1155,10 @@
 		(uuid "aec74e2f-ef73-4540-9529-0f35e7053936")
 	)
 	(junction
-		(at 165.1 129.54)
+		(at 215.9 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b7d4fc6c-7b9e-445f-bdfc-81363babbc70")
+		(uuid "ba6e5472-24f0-4f0c-a94d-c943757b0ac6")
 	)
 	(junction
 		(at 149.86 93.98)
@@ -1838,34 +1203,16 @@
 		(uuid "e7b380b2-4178-41d8-b11e-9900cbbe6ed8")
 	)
 	(junction
-		(at 185.42 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ed33e22e-0752-4038-9557-53ebfb3d3d9a")
-	)
-	(junction
 		(at 195.58 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f018a3ea-bee6-422e-a4b8-6e974754b696")
 	)
 	(junction
-		(at 154.94 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f7c87d41-2941-4bd3-9742-549aeb3f1b7e")
-	)
-	(junction
 		(at 154.94 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fdf296b0-c709-4e97-8aeb-351b8b1198a3")
-	)
-	(junction
-		(at 146.05 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff194fd5-156f-4b32-8a0f-c8b647828e47")
 	)
 	(junction
 		(at 195.58 58.42)
@@ -1878,8 +1225,12 @@
 		(uuid "111d6fae-19b0-4e32-9a74-21b747da46b4")
 	)
 	(no_connect
-		(at 38.1 116.84)
-		(uuid "2a4cca05-4431-4859-82ce-70a8a60a1a6b")
+		(at 73.66 129.54)
+		(uuid "20150c3f-4766-444b-95c0-93ce8b05d0c6")
+	)
+	(no_connect
+		(at 73.66 114.3)
+		(uuid "2f7cb0db-cd3f-427d-9385-b0066bf90bf2")
 	)
 	(no_connect
 		(at 73.66 119.38)
@@ -1894,8 +1245,16 @@
 		(uuid "a6157403-f074-4727-8554-a759d1874818")
 	)
 	(no_connect
-		(at 38.1 114.3)
-		(uuid "d6e384bf-541c-465d-a169-72e68f0be4f5")
+		(at 73.66 134.62)
+		(uuid "cb1650cb-186b-4a4a-ab34-e58dbe2bcad3")
+	)
+	(no_connect
+		(at 73.66 137.16)
+		(uuid "f3a7e7b6-17e8-44ea-ac2b-104800ac0613")
+	)
+	(no_connect
+		(at 73.66 132.08)
+		(uuid "f3eef82c-91f9-4fe2-9e57-994db25e9da6")
 	)
 	(no_connect
 		(at 73.66 124.46)
@@ -1933,16 +1292,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 165.1) (xy 158.75 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0707aff6-1929-4f3a-8c46-c6bb3e0c6edd")
-	)
-	(wire
-		(pts
 			(xy 134.62 58.42) (xy 149.86 58.42)
 		)
 		(stroke
@@ -1973,16 +1322,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 86.36) (xy 154.94 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "190b65a4-d53b-4a79-8db0-a56e91c6924c")
-	)
-	(wire
-		(pts
 			(xy 139.7 50.8) (xy 139.7 68.58)
 		)
 		(stroke
@@ -1990,46 +1329,6 @@
 			(type default)
 		)
 		(uuid "1c260649-b416-4728-ad56-b4cc218119e8")
-	)
-	(wire
-		(pts
-			(xy 154.94 104.14) (xy 154.94 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fba6244-ffcf-44d5-8917-97430da9e34c")
-	)
-	(wire
-		(pts
-			(xy 139.7 86.36) (xy 139.7 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21d3eaaa-2e1a-455b-886c-1069c1fcd89b")
-	)
-	(wire
-		(pts
-			(xy 91.44 181.61) (xy 88.9 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21fb5671-5e2a-46ad-8f75-1f45f446dd51")
-	)
-	(wire
-		(pts
-			(xy 146.05 154.94) (xy 166.37 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "221afe2f-6216-4207-804b-3daf77a82874")
 	)
 	(wire
 		(pts
@@ -2053,33 +1352,23 @@
 	)
 	(wire
 		(pts
-			(xy 127 144.78) (xy 127 151.13)
+			(xy 215.9 86.36) (xy 215.9 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2d1b056a-a9b0-47b6-9601-580eea31309c")
+		(uuid "2f6ddae8-dce1-4fa9-837b-aff0b0fa18f6")
 	)
 	(wire
 		(pts
-			(xy 88.9 179.07) (xy 91.44 179.07)
+			(xy 215.9 43.18) (xy 215.9 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "33d5c711-7123-4f23-9344-0ec976872546")
-	)
-	(wire
-		(pts
-			(xy 64.77 181.61) (xy 62.23 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "383dfbb9-a024-4d9d-bf10-3c5546c862af")
+		(uuid "3afb05f0-bf75-429d-8c23-817572cd9dd5")
 	)
 	(wire
 		(pts
@@ -2113,13 +1402,13 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 173.99) (xy 62.23 179.07)
+			(xy 210.82 76.2) (xy 226.06 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "48ab4677-fbb9-4ba0-a96c-6f70d5a11dca")
+		(uuid "489fcd9d-addf-4560-824a-4c022c088e16")
 	)
 	(wire
 		(pts
@@ -2133,16 +1422,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 176.53) (xy 166.37 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b78231d-48d9-49ed-bed1-84911eff7352")
-	)
-	(wire
-		(pts
 			(xy 139.7 68.58) (xy 139.7 86.36)
 		)
 		(stroke
@@ -2150,16 +1429,6 @@
 			(type default)
 		)
 		(uuid "4c1249ac-780f-43d6-89f1-300ba8f4a941")
-	)
-	(wire
-		(pts
-			(xy 119.38 165.1) (xy 119.38 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5072e4ac-3de4-4a8a-87e9-43f86189654c")
 	)
 	(wire
 		(pts
@@ -2173,53 +1442,13 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 181.61) (xy 62.23 185.42)
+			(xy 210.82 111.76) (xy 226.06 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5c8b32ad-8b69-4d5c-a272-09bf2b0b5f51")
-	)
-	(wire
-		(pts
-			(xy 156.21 165.1) (xy 156.21 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cc9ecbd-e116-4e82-b734-da5e0ab05127")
-	)
-	(wire
-		(pts
-			(xy 200.66 104.14) (xy 200.66 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cd482f5-a4d1-406f-ba71-f4f04c059ce7")
-	)
-	(wire
-		(pts
-			(xy 165.1 129.54) (xy 180.34 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f83f0f6-622c-4eb7-93e5-fbc1e1d25f21")
-	)
-	(wire
-		(pts
-			(xy 195.58 106.68) (xy 195.58 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61565681-3e83-432f-abe8-af7e75b6bc99")
+		(uuid "621053c3-d03e-46aa-a774-e7875e5f0bc8")
 	)
 	(wire
 		(pts
@@ -2233,16 +1462,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 144.78) (xy 146.05 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a671a14-154d-415b-9549-5b9d1533b724")
-	)
-	(wire
-		(pts
 			(xy 149.86 58.42) (xy 165.1 58.42)
 		)
 		(stroke
@@ -2253,7 +1472,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 97.79) (xy 185.42 106.68)
+			(xy 185.42 86.36) (xy 185.42 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2283,16 +1502,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 129.54) (xy 149.86 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ab1a2c3-819e-4bbc-9567-379ae0b9b441")
-	)
-	(wire
-		(pts
 			(xy 170.18 86.36) (xy 170.18 104.14)
 		)
 		(stroke
@@ -2310,36 +1519,6 @@
 			(type default)
 		)
 		(uuid "7f8aac17-2339-4e06-9254-0bddc9efcb0a")
-	)
-	(wire
-		(pts
-			(xy 156.21 176.53) (xy 158.75 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8028eaed-128f-4824-b61c-ce707747c6f3")
-	)
-	(wire
-		(pts
-			(xy 153.67 165.1) (xy 156.21 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "813b6635-2c71-4d62-8186-d0f590708023")
-	)
-	(wire
-		(pts
-			(xy 134.62 111.76) (xy 149.86 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "824adb61-bf6c-42f3-ac08-4853c7762686")
 	)
 	(wire
 		(pts
@@ -2383,46 +1562,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 86.36) (xy 185.42 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ed6d7f3-6928-4033-b33c-f8b93f6dcf73")
-	)
-	(wire
-		(pts
-			(xy 88.9 173.99) (xy 88.9 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8eea1c69-167c-4e37-8705-9ee1e2b340d5")
-	)
-	(wire
-		(pts
-			(xy 149.86 129.54) (xy 165.1 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "919be38f-5ae5-4936-bb60-050f4a75ae9d")
-	)
-	(wire
-		(pts
-			(xy 166.37 165.1) (xy 166.37 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "992e0900-14c9-4796-99ec-aabff689a1cb")
-	)
-	(wire
-		(pts
 			(xy 195.58 76.2) (xy 210.82 76.2)
 		)
 		(stroke
@@ -2433,53 +1572,13 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 129.54) (xy 80.01 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c64ebd4-4cc0-4ae4-92e2-f334ba1d6047")
-	)
-	(wire
-		(pts
-			(xy 165.1 111.76) (xy 180.34 111.76)
+			(xy 134.62 111.76) (xy 180.34 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9d355232-70c0-47f9-82d6-3dcb3b98b67d")
-	)
-	(wire
-		(pts
-			(xy 185.42 106.68) (xy 185.42 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a087bbca-8a8e-4632-b702-862326bb4bad")
-	)
-	(wire
-		(pts
-			(xy 149.86 111.76) (xy 165.1 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1545642-8930-48e5-a587-200e45223ef0")
-	)
-	(wire
-		(pts
-			(xy 146.05 154.94) (xy 146.05 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5d96f22-2301-419f-927b-361f599a62f9")
 	)
 	(wire
 		(pts
@@ -2493,26 +1592,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 165.1) (xy 132.08 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aabec528-64a7-485d-b4f9-60ed48c4f034")
-	)
-	(wire
-		(pts
-			(xy 195.58 97.79) (xy 195.58 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b11c26f7-476e-486c-8ccb-189c42b3dd74")
-	)
-	(wire
-		(pts
 			(xy 180.34 111.76) (xy 195.58 111.76)
 		)
 		(stroke
@@ -2523,6 +1602,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 50.8) (xy 215.9 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b44f1d52-39fc-497f-adff-dfa6ea230871")
+	)
+	(wire
+		(pts
 			(xy 185.42 43.18) (xy 185.42 50.8)
 		)
 		(stroke
@@ -2530,26 +1619,6 @@
 			(type default)
 		)
 		(uuid "b64860bd-ae96-4373-9baf-9ce503c866bd")
-	)
-	(wire
-		(pts
-			(xy 73.66 132.08) (xy 80.01 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9747724-613f-4929-b697-471b6464d7b3")
-	)
-	(wire
-		(pts
-			(xy 180.34 129.54) (xy 195.58 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c525e472-73b1-4279-9608-afb5f7a7b669")
 	)
 	(wire
 		(pts
@@ -2573,36 +1642,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 173.99) (xy 119.38 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdd10697-43d0-490d-889e-11145897ce92")
-	)
-	(wire
-		(pts
-			(xy 127 151.13) (xy 127 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cea0f75f-9c22-4c23-ad9a-cd2e63ff8139")
-	)
-	(wire
-		(pts
-			(xy 139.7 165.1) (xy 139.7 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0012b13-0f03-48a7-bc08-0e07ff92ebe5")
-	)
-	(wire
-		(pts
 			(xy 200.66 43.18) (xy 200.66 50.8)
 		)
 		(stroke
@@ -2623,33 +1662,13 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 179.07) (xy 64.77 179.07)
+			(xy 210.82 93.98) (xy 226.06 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "db65a11f-1cd7-4f30-b6f1-2961a0fa8796")
-	)
-	(wire
-		(pts
-			(xy 139.7 151.13) (xy 127 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de5b6551-a7b8-4d9d-a618-e569a70c2eec")
-	)
-	(wire
-		(pts
-			(xy 170.18 104.14) (xy 170.18 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e26ff14e-d281-4c7f-8700-cb2b6c79023c")
+		(uuid "dcdee924-4af1-4aaf-be67-cdfee59b2c62")
 	)
 	(wire
 		(pts
@@ -2663,26 +1682,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 129.54) (xy 210.82 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e74e8645-7e44-4617-957e-375f7761f6fc")
-	)
-	(wire
-		(pts
-			(xy 88.9 181.61) (xy 88.9 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee7ee33f-7bb2-4de2-861d-a9e142144853")
-	)
-	(wire
-		(pts
 			(xy 24.13 119.38) (xy 24.13 121.92)
 		)
 		(stroke
@@ -2690,16 +1689,6 @@
 			(type default)
 		)
 		(uuid "ee98b713-d144-43c8-a6a5-79b09a242994")
-	)
-	(wire
-		(pts
-			(xy 139.7 104.14) (xy 139.7 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f409cffb-d89a-475c-a495-e94848b10d7d")
 	)
 	(wire
 		(pts
@@ -2723,39 +1712,27 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 173.99) (xy 119.38 177.8)
+			(xy 215.9 68.58) (xy 215.9 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f9cb0ebc-5026-47bf-babb-25c6c63fef38")
+		(uuid "f773bb2c-1093-455e-9b41-a123d56aa11f")
 	)
-	(global_label "Y"
-		(shape input)
-		(at 135.89 160.02 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
+	(wire
+		(pts
+			(xy 210.82 58.42) (xy 226.06 58.42)
 		)
-		(uuid "06b3976e-ab22-45fb-86fa-74f0d2f8286e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89 155.9462 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
+		(stroke
+			(width 0)
+			(type default)
 		)
+		(uuid "f8f20502-6721-476b-a863-e535a4c2bf56")
 	)
 	(global_label "Row 1"
 		(shape input)
-		(at 38.1 124.46 180)
+		(at 38.1 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2765,7 +1742,7 @@
 		)
 		(uuid "1989682d-2906-44bc-8b2d-2a2ed9496e80")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.2676 124.46 0)
+			(at 29.2676 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2797,53 +1774,9 @@
 			)
 		)
 	)
-	(global_label "Y"
+	(global_label "Col 6"
 		(shape input)
-		(at 80.01 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "273b9a10-3878-4db0-ac45-e70b74af62a3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.0838 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BAT+"
-		(shape input)
-		(at 73.66 114.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "29c42b5d-a487-4837-af0a-86712283ed97")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.5438 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Row 5"
-		(shape input)
-		(at 38.1 134.62 180)
+		(at 38.1 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2851,9 +1784,9 @@
 			)
 			(justify right)
 		)
-		(uuid "2e310682-728f-48c0-bb14-2647d4496d51")
+		(uuid "222fc19e-db18-4a62-8dc1-ab044be3ed24")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.1882 134.62 0)
+			(at 29.8535 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2887,7 +1820,7 @@
 	)
 	(global_label "Row 2"
 		(shape input)
-		(at 38.1 127 180)
+		(at 38.1 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2897,7 +1830,7 @@
 		)
 		(uuid "303e752f-619a-478a-9b4b-f9a366e0f553")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.2676 127 0)
+			(at 29.1882 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2909,7 +1842,7 @@
 	)
 	(global_label "Col 5"
 		(shape input)
-		(at 200.66 43.18 90)
+		(at 154.94 43.18 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2919,7 +1852,7 @@
 		)
 		(uuid "422bf4df-f37e-4b51-ad51-c53626dc5a63")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.5806 35.5055 90)
+			(at 154.8606 35.5055 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2931,7 +1864,7 @@
 	)
 	(global_label "Col 2"
 		(shape input)
-		(at 38.1 139.7 180)
+		(at 38.1 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2941,7 +1874,7 @@
 		)
 		(uuid "498f5855-212d-476f-82b6-6deddd914f97")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.9329 139.7 0)
+			(at 29.9329 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2953,7 +1886,7 @@
 	)
 	(global_label "Col 3"
 		(shape input)
-		(at 38.1 137.16 180)
+		(at 38.1 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2963,7 +1896,7 @@
 		)
 		(uuid "54535aa5-a8a6-4e4e-aa3b-28ef0027b48e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.9329 137.16 0)
+			(at 29.9329 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2973,31 +1906,9 @@
 			)
 		)
 	)
-	(global_label "VCC"
-		(shape input)
-		(at 127 144.78 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "54baa5f6-e3f9-4357-a8d2-fa2ce0d732ba")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.6138 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Col 4"
 		(shape input)
-		(at 185.42 43.18 90)
+		(at 170.18 43.18 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3007,7 +1918,7 @@
 		)
 		(uuid "631817f7-d636-49ff-a78b-ba0980238690")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.3406 35.5055 90)
+			(at 170.1006 35.5055 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3019,7 +1930,7 @@
 	)
 	(global_label "Col 2"
 		(shape input)
-		(at 154.94 43.18 90)
+		(at 200.66 43.18 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3029,7 +1940,7 @@
 		)
 		(uuid "669cc42a-222b-493f-a557-1ca53ac6cdf4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.8606 35.5055 90)
+			(at 200.5806 35.5055 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3083,53 +1994,9 @@
 			)
 		)
 	)
-	(global_label "BAT+"
-		(shape input)
-		(at 62.23 173.99 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7d39b8eb-793c-4f90-b84b-7007a5309758")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.23 166.1062 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VCC"
-		(shape input)
-		(at 146.05 144.78 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8db413fb-d1be-4a25-97da-50dd50b88fcf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.6638 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Col 3"
 		(shape input)
-		(at 170.18 43.18 90)
+		(at 185.42 43.18 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3139,7 +2006,7 @@
 		)
 		(uuid "92544535-511b-431e-90e3-55f7b49a1558")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.1006 35.5055 90)
+			(at 185.3406 35.5055 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3151,22 +2018,22 @@
 	)
 	(global_label "Col 4"
 		(shape input)
-		(at 73.66 134.62 0)
+		(at 38.1 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "9af3c84d-bb35-42e6-9731-95415df2e1f8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.9065 134.62 0)
+			(at 29.8535 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3193,31 +2060,9 @@
 			)
 		)
 	)
-	(global_label "X"
-		(shape input)
-		(at 123.19 160.02 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ac482670-fc72-4a5a-9a71-ec01dafe372a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.19 155.8253 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Row 4"
 		(shape input)
-		(at 38.1 132.08 180)
+		(at 38.1 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3227,7 +2072,7 @@
 		)
 		(uuid "b3474ba2-4197-41aa-9e8b-85ca34cdfb5a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.1882 132.08 0)
+			(at 29.1882 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3239,7 +2084,7 @@
 	)
 	(global_label "Col 1"
 		(shape input)
-		(at 139.7 43.18 90)
+		(at 215.9 43.18 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3249,7 +2094,7 @@
 		)
 		(uuid "b6ea1659-6ad9-49d0-9397-556fed6c4413")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.6206 35.5055 90)
+			(at 215.8206 35.5055 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3281,9 +2126,9 @@
 			)
 		)
 	)
-	(global_label "X"
+	(global_label "Col 6"
 		(shape input)
-		(at 80.01 132.08 0)
+		(at 139.7 43.18 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3291,36 +2136,14 @@
 			)
 			(justify left)
 		)
-		(uuid "be653fc1-44c2-4dbd-a1ad-c6aaeabf77a9")
+		(uuid "bb7ebe1d-a77e-4df7-9981-d88ef14b9225")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.2047 132.08 0)
+			(at 139.7 34.9335 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Row 5"
-		(shape input)
-		(at 134.62 129.54 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c2670bfe-8e0a-4751-91e9-a167e49d2613")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.7082 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -3347,95 +2170,7 @@
 			)
 		)
 	)
-	(global_label "Y"
-		(shape input)
-		(at 149.86 160.02 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d4886e83-0c5d-4f48-9065-e302bbd97475")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.86 155.9462 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BAT+"
-		(shape input)
-		(at 88.9 173.99 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d7ba0211-18f5-427b-99ab-72b9696b921d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9 166.1062 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Col 5"
-		(shape input)
-		(at 73.66 137.16 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "eb3d4291-10cb-462c-9691-e7825ce98d1c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.9065 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "X"
-		(shape input)
-		(at 162.56 160.02 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ee3de55c-d644-4ecf-8276-a0cb7733aead")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.56 155.8253 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col 1"
 		(shape input)
 		(at 38.1 142.24 180)
 		(fields_autoplaced yes)
@@ -3445,9 +2180,31 @@
 			)
 			(justify right)
 		)
-		(uuid "f218184b-816a-45fe-b901-ddadefbee98e")
+		(uuid "eb3d4291-10cb-462c-9691-e7825ce98d1c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 29.8535 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col 1"
+		(shape input)
+		(at 38.1 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f218184b-816a-45fe-b901-ddadefbee98e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.8535 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3526,94 +2283,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4448W")
-		(at 195.58 125.73 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "068a51cf-7bab-4d04-8329-5182349854c9")
-		(property "Reference" "D20"
-			(at 193.04 127.0001 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4448W"
-			(at 193.04 124.4601 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 191.135 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85722/1n4448w.pdf"
-			(at 195.58 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A High-speed standard diode, SOD-123"
-			(at 195.58 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 195.58 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 195.58 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "32fcc639-f97f-4624-8375-72687bf0ad69")
-		)
-		(pin "2"
-			(uuid "58d424d5-355b-4f93-8bec-f84529e1cf11")
-		)
-		(instances
-			(project "JustType"
-				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "D20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 24.13 121.92 0)
 		(unit 1)
@@ -3680,6 +2349,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4448W")
+		(at 226.06 90.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0deeb75c-2323-4db9-846f-030ae4e13870")
+		(property "Reference" "D18"
+			(at 223.52 91.4401 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4448W"
+			(at 223.52 88.9001 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "keyboard_jsa:D3_SMD_v2"
+			(at 221.615 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85722/1n4448w.pdf"
+			(at 226.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A High-speed standard diode, SOD-123"
+			(at 226.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 226.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 226.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0536a678-5b6c-46a5-8822-2e79e7202287")
+		)
+		(pin "2"
+			(uuid "1970fc05-57ce-41d0-868a-91c3e94b77a9")
+		)
+		(instances
+			(project "JustType"
+				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 190.5 68.58 0)
 		(unit 1)
@@ -3689,7 +2446,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1519d223-3c53-4929-9d80-bb6f2d744eb7")
-		(property "Reference" "SW17"
+		(property "Reference" "SW10"
 			(at 190.5 63.5 0)
 			(effects
 				(font
@@ -3706,7 +2463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyboard_jsa:ChocV1_Hotswap"
+		(property "Footprint" "keyboard_jsa:ChocV1_Solder"
 			(at 190.5 63.5 0)
 			(effects
 				(font
@@ -3742,161 +2499,7 @@
 		(instances
 			(project "JustType"
 				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "SW17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4448W")
-		(at 165.1 125.73 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1a8fcb09-ede6-4ce0-beca-281a391ef9fb")
-		(property "Reference" "D10"
-			(at 162.56 127.0001 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4448W"
-			(at 162.56 124.4601 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 160.655 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85722/1n4448w.pdf"
-			(at 165.1 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A High-speed standard diode, SOD-123"
-			(at 165.1 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 165.1 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 165.1 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d92bf96-ccf3-4115-98ba-5b649946b24b")
-		)
-		(pin "2"
-			(uuid "0c8976d7-26de-419d-a2b1-46a7a929b8a8")
-		)
-		(instances
-			(project "JustType"
-				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 62.23 185.42 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1d5a1dae-dc8e-45ce-8e9e-52f698e22a47")
-		(property "Reference" "#PWR04"
-			(at 62.23 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 62.23 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b924588d-9470-4938-b9a1-b4e14bee394f")
-		)
-		(instances
-			(project "JustType"
-				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "#PWR04")
+					(reference "SW10")
 					(unit 1)
 				)
 			)
@@ -3911,7 +2514,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d767ca4-a85b-4cff-a580-f262480144e6")
-		(property "Reference" "D23"
+		(property "Reference" "D17"
 			(at 208.28 91.4401 90)
 			(effects
 				(font
@@ -3930,7 +2533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "keyboard_jsa:D3_SMD_v2"
 			(at 206.375 90.17 0)
 			(effects
 				(font
@@ -3984,73 +2587,7 @@
 		(instances
 			(project "JustType"
 				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "D23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 166.37 176.53 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "29e135ae-9b66-43ba-b15a-75fb2feed6e1")
-		(property "Reference" "#PWR07"
-			(at 166.37 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 166.37 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f978894b-dc21-485a-8134-5e83a29513ca")
-		)
-		(instances
-			(project "JustType"
-				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "#PWR07")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -4066,7 +2603,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b540fee-6f3b-4114-b3ec-cd81ede905df")
-		(property "Reference" "SW6"
+		(property "Reference" "SW2"
 			(at 160.02 45.72 0)
 			(effects
 				(font
@@ -4083,7 +2620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyboard_jsa:ChocV1_Hotswap"
+		(property "Footprint" "keyboard_jsa:ChocV1_Solder"
 			(at 160.02 45.72 0)
 			(effects
 				(font
@@ -4119,7 +2656,7 @@
 		(instances
 			(project "JustType"
 				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "SW6")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -4134,7 +2671,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2fe8a780-a79d-4ce6-98c7-2d30b4292dc2")
-		(property "Reference" "D6"
+		(property "Reference" "D2"
 			(at 162.56 55.8801 90)
 			(effects
 				(font
@@ -4153,7 +2690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "keyboard_jsa:D3_SMD_v2"
 			(at 160.655 54.61 0)
 			(effects
 				(font
@@ -4207,7 +2744,95 @@
 		(instances
 			(project "JustType"
 				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "D6")
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4448W")
+		(at 226.06 72.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "301eadfa-fd39-4a26-a943-b0d4d6cf170c")
+		(property "Reference" "D12"
+			(at 223.52 73.6601 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4448W"
+			(at 223.52 71.1201 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "keyboard_jsa:D3_SMD_v2"
+			(at 221.615 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85722/1n4448w.pdf"
+			(at 226.06 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A High-speed standard diode, SOD-123"
+			(at 226.06 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 226.06 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 226.06 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a154f133-4d72-48a1-8773-9f491d697650")
+		)
+		(pin "2"
+			(uuid "bd46cf1f-b3c2-46d1-90d8-d7a60c151aad")
+		)
+		(instances
+			(project "JustType"
+				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -4241,7 +2866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "keyboard_jsa:D3_SMD_v2"
 			(at 145.415 54.61 0)
 			(effects
 				(font
@@ -4310,7 +2935,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "375ac115-32d9-43d5-9155-732efd1d0ec5")
-		(property "Reference" "D16"
+		(property "Reference" "D4"
 			(at 193.04 55.8801 90)
 			(effects
 				(font
@@ -4329,7 +2954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "keyboard_jsa:D3_SMD_v2"
 			(at 191.135 54.61 0)
 			(effects
 				(font
@@ -4383,7 +3008,7 @@
 		(instances
 			(project "JustType"
 				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "D16")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -4398,7 +3023,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "45d93601-5298-4805-ba7d-3d0e5c81bfb7")
-		(property "Reference" "D19"
+		(property "Reference" "D20"
 			(at 193.04 109.2201 90)
 			(effects
 				(font
@@ -4417,7 +3042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "keyboard_jsa:D3_SMD_v2"
 			(at 191.135 107.95 0)
 			(effects
 				(font
@@ -4471,7 +3096,7 @@
 		(instances
 			(project "JustType"
 				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "D19")
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -4487,7 +3112,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47793445-1e73-465f-a1c1-c60fe69377ae")
-		(property "Reference" "SW12"
+		(property "Reference" "SW9"
 			(at 175.26 63.5 0)
 			(effects
 				(font
@@ -4504,7 +3129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyboard_jsa:ChocV1_Hotswap"
+		(property "Footprint" "keyboard_jsa:ChocV1_Solder"
 			(at 175.26 63.5 0)
 			(effects
 				(font
@@ -4540,7 +3165,7 @@
 		(instances
 			(project "JustType"
 				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "SW12")
+					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -4622,7 +3247,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d41f342-4013-4625-a4ac-6bde2910466e")
-		(property "Reference" "SW22"
+		(property "Reference" "SW11"
 			(at 205.74 63.5 0)
 			(effects
 				(font
@@ -4639,7 +3264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyboard_jsa:ChocV1_Hotswap"
+		(property "Footprint" "keyboard_jsa:ChocV1_Solder"
 			(at 205.74 63.5 0)
 			(effects
 				(font
@@ -4675,7 +3300,7 @@
 		(instances
 			(project "JustType"
 				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "SW22")
+					(reference "SW11")
 					(unit 1)
 				)
 			)
@@ -4683,16 +3308,16 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 175.26 121.92 0)
+		(at 220.98 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4ff22b73-98e3-468b-bdf3-f744248fc445")
-		(property "Reference" "SW15"
-			(at 175.26 116.84 0)
+		(uuid "59c7d348-dd1d-4d2b-893f-06c18db28351")
+		(property "Reference" "SW18"
+			(at 220.98 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4700,7 +3325,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 175.26 116.84 0)
+			(at 220.98 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4708,8 +3333,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyboard_jsa:ChocV1_Hotswap"
-			(at 175.26 116.84 0)
+		(property "Footprint" "keyboard_jsa:ChocV1_Solder"
+			(at 220.98 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4718,7 +3343,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 116.84 0)
+			(at 220.98 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4727,7 +3352,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 175.26 121.92 0)
+			(at 220.98 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4736,238 +3361,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "3db536e3-6c2b-4108-89b9-db634be41839")
+			(uuid "5bb517b4-67d7-4e9d-babf-4b91f9af14ff")
 		)
 		(pin "2"
-			(uuid "5722256b-eff4-428c-8777-d80ee1cc7c84")
+			(uuid "db2eb6b4-f0f1-4513-9e9f-487711397a0e")
 		)
 		(instances
 			(project "JustType"
 				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "SW15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 144.78 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "531d14a0-059a-4eaf-9a41-2fb290126e05")
-		(property "Reference" "SW4"
-			(at 144.78 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 144.78 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "keyboard_jsa:ChocV1_Hotswap"
-			(at 144.78 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 144.78 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ca03c57c-2819-42fc-ab34-68018c5da97b")
-		)
-		(pin "2"
-			(uuid "64a772d2-1cca-4b26-9078-3a8b1193f664")
-		)
-		(instances
-			(project "JustType"
-				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4448W")
-		(at 165.1 107.95 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "586bf603-0d6a-491b-8676-51d204c310a8")
-		(property "Reference" "D9"
-			(at 162.56 109.2201 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4448W"
-			(at 162.56 106.6801 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 160.655 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85722/1n4448w.pdf"
-			(at 165.1 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A High-speed standard diode, SOD-123"
-			(at 165.1 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 165.1 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 165.1 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "307c9236-df49-41cf-9cb4-190871a3b221")
-		)
-		(pin "2"
-			(uuid "edf3eaf6-af3c-4b3d-8830-e8d4080d3429")
-		)
-		(instances
-			(project "JustType"
-				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 119.38 177.8 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5c5bae64-9575-4f34-a4eb-590351dea364")
-		(property "Reference" "#PWR05"
-			(at 119.38 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 119.38 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "64fcc390-5deb-4e06-a0ce-15a1ca0f5724")
-		)
-		(instances
-			(project "JustType"
-				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "#PWR05")
+					(reference "SW18")
 					(unit 1)
 				)
 			)
@@ -4983,7 +3385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c6cd33a-eedb-46ce-ac10-09f5d2fc7120")
-		(property "Reference" "SW18"
+		(property "Reference" "SW16"
 			(at 190.5 81.28 0)
 			(effects
 				(font
@@ -5000,7 +3402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyboard_jsa:ChocV1_Hotswap"
+		(property "Footprint" "keyboard_jsa:ChocV1_Solder"
 			(at 190.5 81.28 0)
 			(effects
 				(font
@@ -5036,88 +3438,7 @@
 		(instances
 			(project "JustType"
 				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "SW18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer_Dual")
-		(at 129.54 162.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6041dcdb-3fa5-4fa9-98c0-53161f5306e5")
-		(property "Reference" "RV1"
-			(at 129.54 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_Potentiometer_Dual"
-			(at 129.54 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "keyboard_jsa:PSP thumbstick"
-			(at 135.89 164.465 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.89 164.465 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual potentiometer"
-			(at 129.54 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4a432ea5-1d04-481d-ab2e-9e70d0bfee2a")
-		)
-		(pin "4"
-			(uuid "18ffb99c-4720-4455-99c0-cf0d6484ffc4")
-		)
-		(pin "6"
-			(uuid "af2aa1a3-5345-4250-b3d7-c065da2e6aa7")
-		)
-		(pin "5"
-			(uuid "16b90cf1-1c9d-4124-bc39-fa8a523e764c")
-		)
-		(pin "3"
-			(uuid "10452cd5-47bb-4477-9169-44d80e861a42")
-		)
-		(pin "2"
-			(uuid "b6396014-1042-43b0-a456-906927ab8698")
-		)
-		(instances
-			(project "JustType"
-				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "RV1")
+					(reference "SW16")
 					(unit 1)
 				)
 			)
@@ -5133,7 +3454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "607ce529-ddce-417f-8b2a-1d2e72011ef8")
-		(property "Reference" "SW8"
+		(property "Reference" "SW14"
 			(at 160.02 81.28 0)
 			(effects
 				(font
@@ -5150,7 +3471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyboard_jsa:ChocV1_Hotswap"
+		(property "Footprint" "keyboard_jsa:ChocV1_Solder"
 			(at 160.02 81.28 0)
 			(effects
 				(font
@@ -5186,7 +3507,7 @@
 		(instances
 			(project "JustType"
 				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "SW8")
+					(reference "SW14")
 					(unit 1)
 				)
 			)
@@ -5202,7 +3523,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6954a9dd-0990-4337-84aa-037124389c2d")
-		(property "Reference" "SW21"
+		(property "Reference" "SW5"
 			(at 205.74 45.72 0)
 			(effects
 				(font
@@ -5219,7 +3540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyboard_jsa:ChocV1_Hotswap"
+		(property "Footprint" "keyboard_jsa:ChocV1_Solder"
 			(at 205.74 45.72 0)
 			(effects
 				(font
@@ -5255,7 +3576,7 @@
 		(instances
 			(project "JustType"
 				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "SW21")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -5270,7 +3591,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f3d7f5f-57ee-4e76-a055-f9a97973d436")
-		(property "Reference" "D24"
+		(property "Reference" "D21"
 			(at 208.28 109.2201 90)
 			(effects
 				(font
@@ -5289,7 +3610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "keyboard_jsa:D3_SMD_v2"
 			(at 206.375 107.95 0)
 			(effects
 				(font
@@ -5343,7 +3664,7 @@
 		(instances
 			(project "JustType"
 				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "D24")
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -5358,7 +3679,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "707fd8eb-8aee-4aa8-ab06-b7c20eec0651")
-		(property "Reference" "D7"
+		(property "Reference" "D8"
 			(at 162.56 73.6601 90)
 			(effects
 				(font
@@ -5377,7 +3698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "keyboard_jsa:D3_SMD_v2"
 			(at 160.655 72.39 0)
 			(effects
 				(font
@@ -5431,7 +3752,7 @@
 		(instances
 			(project "JustType"
 				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "D7")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -5439,153 +3760,15 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 190.5 97.79 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7562f7f6-1f34-4fd3-bf58-51d88d730c83")
-		(property "Reference" "SW19'1"
-			(at 190.246 96.266 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 190.5 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "keyboard_jsa:ChocV1_Hotswap"
-			(at 190.5 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 190.5 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "837621df-6ce6-4c81-be47-1d54bd2dedce")
-		)
-		(pin "2"
-			(uuid "f67ab22e-a4da-4161-9470-f60cb2569833")
-		)
-		(instances
-			(project "JustType"
-				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "SW19'1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 96.52 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b02678e-6971-4bf7-9f53-14c88b1f44ac")
-		(property "Reference" "J2"
-			(at 99.06 179.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 99.06 181.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
-			(at 96.52 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 96.52 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 96.52 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "64f82e1f-b016-4aca-99c8-fdb258c06a6b")
-		)
-		(pin "1"
-			(uuid "7236b2cb-fae1-4951-8c00-4ea09d8fd297")
-		)
-		(instances
-			(project "JustType"
-				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 190.5 106.68 0)
+		(at 190.5 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "7c31d122-e416-49bb-809e-f61120ab1c06")
-		(property "Reference" "SW19"
-			(at 190.5 101.6 0)
+		(property "Reference" "SW20"
+			(at 190.5 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5593,7 +3776,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 190.5 101.6 0)
+			(at 190.5 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5601,8 +3784,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyboard_jsa:ChocV1_Hotswap"
-			(at 190.5 101.6 0)
+		(property "Footprint" "keyboard_jsa:ChocV1_Solder"
+			(at 190.5 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5611,7 +3794,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 101.6 0)
+			(at 190.5 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5620,7 +3803,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 190.5 106.68 0)
+			(at 190.5 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5637,7 +3820,7 @@
 		(instances
 			(project "JustType"
 				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "SW19")
+					(reference "SW20")
 					(unit 1)
 				)
 			)
@@ -5653,7 +3836,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cf88aee-e461-4a70-b1e7-b43e094425fb")
-		(property "Reference" "SW7"
+		(property "Reference" "SW8"
 			(at 160.02 63.5 0)
 			(effects
 				(font
@@ -5670,7 +3853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyboard_jsa:ChocV1_Hotswap"
+		(property "Footprint" "keyboard_jsa:ChocV1_Solder"
 			(at 160.02 63.5 0)
 			(effects
 				(font
@@ -5706,7 +3889,7 @@
 		(instances
 			(project "JustType"
 				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "SW7")
+					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -5720,7 +3903,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "82952de8-3dfe-4ebf-a2d1-7722e5db1b58")
 		(property "Reference" "U1"
 			(at 55.88 106.045 0)
@@ -5921,7 +4103,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "86aa7155-d384-46ad-840f-86b6e2c1af25")
-		(property "Reference" "D13"
+		(property "Reference" "D15"
 			(at 177.8 91.4401 90)
 			(effects
 				(font
@@ -5940,7 +4122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "keyboard_jsa:D3_SMD_v2"
 			(at 175.895 90.17 0)
 			(effects
 				(font
@@ -5994,7 +4176,7 @@
 		(instances
 			(project "JustType"
 				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "D13")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -6009,7 +4191,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "89f61fe4-ab63-459d-acdc-d91395224925")
-		(property "Reference" "D22"
+		(property "Reference" "D11"
 			(at 208.28 73.6601 90)
 			(effects
 				(font
@@ -6028,7 +4210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "keyboard_jsa:D3_SMD_v2"
 			(at 206.375 72.39 0)
 			(effects
 				(font
@@ -6082,7 +4264,7 @@
 		(instances
 			(project "JustType"
 				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "D22")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -6097,7 +4279,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8dc730b9-ea1d-4837-a8fd-d5d21271a1f9")
-		(property "Reference" "D14"
+		(property "Reference" "D19"
 			(at 177.8 109.2201 90)
 			(effects
 				(font
@@ -6116,7 +4298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "keyboard_jsa:D3_SMD_v2"
 			(at 175.895 107.95 0)
 			(effects
 				(font
@@ -6170,95 +4352,7 @@
 		(instances
 			(project "JustType"
 				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "D14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4448W")
-		(at 180.34 125.73 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8ee47864-ab76-41dc-8aa8-1900d999e742")
-		(property "Reference" "D15"
-			(at 177.8 127.0001 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4448W"
-			(at 177.8 124.4601 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 175.895 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85722/1n4448w.pdf"
-			(at 180.34 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A High-speed standard diode, SOD-123"
-			(at 180.34 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 180.34 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 180.34 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9e3d4dc5-4599-41f9-83d7-3170e982a595")
-		)
-		(pin "2"
-			(uuid "e192970a-d583-4cc8-9613-44c6980e7704")
-		)
-		(instances
-			(project "JustType"
-				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "D15")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -6273,7 +4367,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f457bb5-0f84-42ff-9586-3cb1553f6c88")
-		(property "Reference" "D3"
+		(property "Reference" "D13"
 			(at 147.32 91.4401 90)
 			(effects
 				(font
@@ -6292,7 +4386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "keyboard_jsa:D3_SMD_v2"
 			(at 145.415 90.17 0)
 			(effects
 				(font
@@ -6346,76 +4440,7 @@
 		(instances
 			(project "JustType"
 				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 205.74 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f6860b9-a7de-4516-a0e2-fed4f5260b69")
-		(property "Reference" "SW25"
-			(at 205.74 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 205.74 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "keyboard_jsa:ChocV1_Hotswap"
-			(at 205.74 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 205.74 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 205.74 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e5b6ec11-064b-45db-b655-c3368ba788af")
-		)
-		(pin "2"
-			(uuid "55260c1a-4313-44df-ba30-39917083ff61")
-		)
-		(instances
-			(project "JustType"
-				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "SW25")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -6514,7 +4539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyboard_jsa:ChocV1_Hotswap"
+		(property "Footprint" "keyboard_jsa:ChocV1_Solder"
 			(at 144.78 45.72 0)
 			(effects
 				(font
@@ -6566,7 +4591,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "953b5014-203c-44ff-be85-3c004911584b")
-		(property "Reference" "SW14"
+		(property "Reference" "SW19"
 			(at 175.26 99.06 0)
 			(effects
 				(font
@@ -6583,7 +4608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyboard_jsa:ChocV1_Hotswap"
+		(property "Footprint" "keyboard_jsa:ChocV1_Solder"
 			(at 175.26 99.06 0)
 			(effects
 				(font
@@ -6619,7 +4644,7 @@
 		(instances
 			(project "JustType"
 				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "SW14")
+					(reference "SW19")
 					(unit 1)
 				)
 			)
@@ -6634,7 +4659,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "960a948c-9276-4039-bdac-896013e24b95")
-		(property "Reference" "D21"
+		(property "Reference" "D5"
 			(at 208.28 55.8801 90)
 			(effects
 				(font
@@ -6653,7 +4678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "keyboard_jsa:D3_SMD_v2"
 			(at 206.375 54.61 0)
 			(effects
 				(font
@@ -6707,77 +4732,7 @@
 		(instances
 			(project "JustType"
 				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "D21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 69.85 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "988b3688-21c0-469b-abdf-15f7fcbfef2d")
-		(property "Reference" "J1"
-			(at 72.39 179.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 72.39 181.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
-			(at 69.85 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 69.85 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c188254e-83ee-4cba-925b-7136076f9ff0")
-		)
-		(pin "1"
-			(uuid "a19fcaed-09a0-4731-a4b9-91d03b1ccb62")
-		)
-		(instances
-			(project "JustType"
-				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "J1")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -6785,16 +4740,16 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 144.78 121.92 0)
+		(at 220.98 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9b62e542-0b5b-48d0-bab8-5b0c421bd7fe")
-		(property "Reference" "SW5"
-			(at 144.78 116.84 0)
+		(uuid "9a937773-7386-41de-8623-cb9a5c6f6ac4")
+		(property "Reference" "SW22"
+			(at 220.98 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6802,7 +4757,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 144.78 116.84 0)
+			(at 220.98 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6810,8 +4765,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyboard_jsa:ChocV1_Hotswap"
-			(at 144.78 116.84 0)
+		(property "Footprint" "keyboard_jsa:ChocV1_Solder"
+			(at 220.98 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6820,7 +4775,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 116.84 0)
+			(at 220.98 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6829,7 +4784,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 144.78 121.92 0)
+			(at 220.98 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6838,15 +4793,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "f298e03d-c5b1-4f21-9d9c-253aa5574f39")
+			(uuid "a0737c92-d0d3-44e3-9f35-935c66911e8f")
 		)
 		(pin "2"
-			(uuid "f098a31d-c141-4b8d-94ba-58cd4e63e49c")
+			(uuid "f91ff02f-829e-413e-8779-6c92028e4558")
 		)
 		(instances
 			(project "JustType"
 				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "SW5")
+					(reference "SW22")
 					(unit 1)
 				)
 			)
@@ -6862,7 +4817,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9de8b434-73dd-489f-85ac-c6b404a0baab")
-		(property "Reference" "SW11"
+		(property "Reference" "SW3"
 			(at 175.26 45.72 0)
 			(effects
 				(font
@@ -6879,7 +4834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyboard_jsa:ChocV1_Hotswap"
+		(property "Footprint" "keyboard_jsa:ChocV1_Solder"
 			(at 175.26 45.72 0)
 			(effects
 				(font
@@ -6915,7 +4870,95 @@
 		(instances
 			(project "JustType"
 				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "SW11")
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4448W")
+		(at 226.06 107.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9fc027f1-6f94-4bb1-874c-104faf5fb76f")
+		(property "Reference" "D22"
+			(at 223.52 109.2201 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4448W"
+			(at 223.52 106.6801 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "keyboard_jsa:D3_SMD_v2"
+			(at 221.615 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85722/1n4448w.pdf"
+			(at 226.06 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A High-speed standard diode, SOD-123"
+			(at 226.06 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 226.06 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 226.06 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23977478-c30c-4795-9283-966e380d371f")
+		)
+		(pin "2"
+			(uuid "fd6fdba4-a60d-4c84-b68b-ba05bf79e8a7")
+		)
+		(instances
+			(project "JustType"
+				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -6931,7 +4974,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3b0486e-fc9c-4a4d-a272-df9fd80d397a")
-		(property "Reference" "SW24"
+		(property "Reference" "SW21"
 			(at 205.74 99.06 0)
 			(effects
 				(font
@@ -6948,7 +4991,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyboard_jsa:ChocV1_Hotswap"
+		(property "Footprint" "keyboard_jsa:ChocV1_Solder"
 			(at 205.74 99.06 0)
 			(effects
 				(font
@@ -6984,164 +5027,7 @@
 		(instances
 			(project "JustType"
 				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "SW24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4448W")
-		(at 210.82 125.73 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a7b0822d-8d56-48b6-a200-2bcef71cc1e6")
-		(property "Reference" "D25"
-			(at 208.28 127.0001 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4448W"
-			(at 208.28 124.4601 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 206.375 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85722/1n4448w.pdf"
-			(at 210.82 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A High-speed standard diode, SOD-123"
-			(at 210.82 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 210.82 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 210.82 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "124b8d91-0260-4c6a-9247-110eb7da824a")
-		)
-		(pin "2"
-			(uuid "b280531b-907f-40d7-82cd-fd555a4da18c")
-		)
-		(instances
-			(project "JustType"
-				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "D25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 190.5 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a9f5a4ee-a117-4f44-abef-a49d45a0e18a")
-		(property "Reference" "SW20"
-			(at 190.5 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 190.5 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "keyboard_jsa:ChocV1_Hotswap"
-			(at 190.5 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 190.5 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "242cae07-5a6a-463c-a25d-4f3b71190df0")
-		)
-		(pin "2"
-			(uuid "4724a943-82bc-42ca-99be-81be3cef5d04")
-		)
-		(instances
-			(project "JustType"
-				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "SW20")
+					(reference "SW21")
 					(unit 1)
 				)
 			)
@@ -7156,7 +5042,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "abdfb78f-7893-4161-8cff-4b581955bcc6")
-		(property "Reference" "D18"
+		(property "Reference" "D16"
 			(at 193.04 91.4401 90)
 			(effects
 				(font
@@ -7175,7 +5061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "keyboard_jsa:D3_SMD_v2"
 			(at 191.135 90.17 0)
 			(effects
 				(font
@@ -7229,183 +5115,7 @@
 		(instances
 			(project "JustType"
 				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "D18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4448W")
-		(at 149.86 107.95 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ac114dba-2801-493b-b5be-1e4df79c93b1")
-		(property "Reference" "D4"
-			(at 147.32 109.2201 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4448W"
-			(at 147.32 106.6801 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 145.415 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85722/1n4448w.pdf"
-			(at 149.86 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A High-speed standard diode, SOD-123"
-			(at 149.86 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 149.86 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 149.86 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f8003566-385d-43f3-b83e-a2692257da45")
-		)
-		(pin "2"
-			(uuid "17084653-469c-4781-821d-fa1ef17f2970")
-		)
-		(instances
-			(project "JustType"
-				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4448W")
-		(at 149.86 125.73 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "accdd44a-eae9-4a1d-a140-d6bd3c40badf")
-		(property "Reference" "D5"
-			(at 147.32 127.0001 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4448W"
-			(at 147.32 124.4601 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 145.415 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85722/1n4448w.pdf"
-			(at 149.86 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A High-speed standard diode, SOD-123"
-			(at 149.86 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 149.86 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 149.86 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ba8e197c-6b19-46a3-907f-5bfb39a55f92")
-		)
-		(pin "2"
-			(uuid "332fb9be-e3b5-4f27-abd9-fe525647d1c8")
-		)
-		(instances
-			(project "JustType"
-				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "D5")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -7421,7 +5131,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b06cdc8c-7f5c-41a8-930b-4b4b3c10e155")
-		(property "Reference" "SW3"
+		(property "Reference" "SW13"
 			(at 144.78 81.28 0)
 			(effects
 				(font
@@ -7438,7 +5148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyboard_jsa:ChocV1_Hotswap"
+		(property "Footprint" "keyboard_jsa:ChocV1_Solder"
 			(at 144.78 81.28 0)
 			(effects
 				(font
@@ -7474,7 +5184,95 @@
 		(instances
 			(project "JustType"
 				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "SW3")
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4448W")
+		(at 226.06 54.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b47c649d-460c-4e29-a0f8-1e1a50baf06f")
+		(property "Reference" "D6"
+			(at 223.52 55.8801 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4448W"
+			(at 223.52 53.3401 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "keyboard_jsa:D3_SMD_v2"
+			(at 221.615 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85722/1n4448w.pdf"
+			(at 226.06 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A High-speed standard diode, SOD-123"
+			(at 226.06 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 226.06 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 226.06 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "493b3ec1-df29-4662-a7d4-5c2968b9c621")
+		)
+		(pin "2"
+			(uuid "267edfbb-f8e6-4c57-9778-2c2846ca4343")
+		)
+		(instances
+			(project "JustType"
+				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -7489,7 +5287,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5bcddf9-0391-412e-a2ba-883c1ab840ca")
-		(property "Reference" "D17"
+		(property "Reference" "D10"
 			(at 193.04 73.6601 90)
 			(effects
 				(font
@@ -7508,7 +5306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "keyboard_jsa:D3_SMD_v2"
 			(at 191.135 72.39 0)
 			(effects
 				(font
@@ -7562,73 +5360,7 @@
 		(instances
 			(project "JustType"
 				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "D17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 88.9 185.42 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b63347d9-a93c-419d-90cd-10f89abb164c")
-		(property "Reference" "#PWR06"
-			(at 88.9 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 88.9 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d39463c2-a1ad-405c-b70a-f2564f13b2ed")
-		)
-		(instances
-			(project "JustType"
-				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "#PWR06")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -7643,7 +5375,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b8ea63c0-d4fe-4caa-b477-8006ac21fc59")
-		(property "Reference" "D12"
+		(property "Reference" "D9"
 			(at 177.8 73.6601 90)
 			(effects
 				(font
@@ -7662,7 +5394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "keyboard_jsa:D3_SMD_v2"
 			(at 175.895 72.39 0)
 			(effects
 				(font
@@ -7716,156 +5448,7 @@
 		(instances
 			(project "JustType"
 				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer_Dual")
-		(at 156.21 162.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b906c437-5c35-4791-b9b6-5f5725fd60a0")
-		(property "Reference" "RV2"
-			(at 156.21 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_Potentiometer_Dual"
-			(at 156.21 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "keyboard_jsa:PSP thumbstick"
-			(at 162.56 164.465 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 164.465 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual potentiometer"
-			(at 156.21 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8e9bb735-247e-49b6-be90-2f25d5f3c4c3")
-		)
-		(pin "4"
-			(uuid "86381159-a2b9-4673-ae6c-3c13e668fee7")
-		)
-		(pin "6"
-			(uuid "20c9ef83-fb2e-4396-9fe4-dbc89994d3f3")
-		)
-		(pin "5"
-			(uuid "5b50c612-da06-4a3c-b6bb-3d41b7dcfe4a")
-		)
-		(pin "3"
-			(uuid "df107d2c-2728-4682-913a-f038b2d5eee6")
-		)
-		(pin "2"
-			(uuid "e2a8def5-ba63-4f6b-aa9f-45a9d114e0dc")
-		)
-		(instances
-			(project "JustType"
-				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "RV2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 160.02 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c361accb-96f0-4248-825e-58f37198db83")
-		(property "Reference" "SW9"
-			(at 160.02 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 160.02 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "keyboard_jsa:ChocV1_Hotswap"
-			(at 160.02 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 160.02 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5ebffb1f-e2c8-4e56-9366-90db7a5a5bf6")
-		)
-		(pin "2"
-			(uuid "f956b53a-aa3e-4122-a0c1-1319c9bc6b62")
-		)
-		(instances
-			(project "JustType"
-				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "SW9")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -7880,7 +5463,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c44753c0-0c1c-4521-a0b4-ddf48a091c79")
-		(property "Reference" "D8"
+		(property "Reference" "D14"
 			(at 162.56 91.4401 90)
 			(effects
 				(font
@@ -7899,7 +5482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "keyboard_jsa:D3_SMD_v2"
 			(at 160.655 90.17 0)
 			(effects
 				(font
@@ -7953,7 +5536,7 @@
 		(instances
 			(project "JustType"
 				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "D8")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -7968,7 +5551,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb5a0177-362e-4014-977d-cccbe19383b8")
-		(property "Reference" "D11"
+		(property "Reference" "D3"
 			(at 177.8 55.8801 90)
 			(effects
 				(font
@@ -7987,7 +5570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "keyboard_jsa:D3_SMD_v2"
 			(at 175.895 54.61 0)
 			(effects
 				(font
@@ -8041,7 +5624,7 @@
 		(instances
 			(project "JustType"
 				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "D11")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -8049,16 +5632,16 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 160.02 121.92 0)
+		(at 220.98 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d26c2305-e2d1-4bf9-9121-9fc6019fbbcd")
-		(property "Reference" "SW10"
-			(at 160.02 116.84 0)
+		(uuid "cdd277b7-b064-4599-96ba-236d4d9f0998")
+		(property "Reference" "SW6"
+			(at 220.98 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8066,7 +5649,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 160.02 116.84 0)
+			(at 220.98 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8074,8 +5657,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyboard_jsa:ChocV1_Hotswap"
-			(at 160.02 116.84 0)
+		(property "Footprint" "keyboard_jsa:ChocV1_Solder"
+			(at 220.98 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8084,7 +5667,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 116.84 0)
+			(at 220.98 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8093,7 +5676,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 160.02 121.92 0)
+			(at 220.98 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8102,15 +5685,84 @@
 			)
 		)
 		(pin "1"
-			(uuid "24100560-46bb-4d6d-a223-4f084debaa87")
+			(uuid "82039b17-8c3e-4f6b-a81b-19cf08a65578")
 		)
 		(pin "2"
-			(uuid "ce9feae7-d5a0-48ff-9d6b-54d4470a9a78")
+			(uuid "b27e52f1-c943-40c1-bd4a-fad16ffe8c48")
 		)
 		(instances
 			(project "JustType"
 				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "SW10")
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 220.98 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf636e2d-a206-47f9-a861-948bec244d30")
+		(property "Reference" "SW12"
+			(at 220.98 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 220.98 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "keyboard_jsa:ChocV1_Solder"
+			(at 220.98 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 220.98 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e74c6285-494d-4f54-9d44-f3342f2466cf")
+		)
+		(pin "2"
+			(uuid "06742be0-59a4-4593-9802-cfeed88da907")
+		)
+		(instances
+			(project "JustType"
+				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
+					(reference "SW12")
 					(unit 1)
 				)
 			)
@@ -8126,7 +5778,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4061f46-7d70-49cc-bd16-afdac89134f0")
-		(property "Reference" "SW16"
+		(property "Reference" "SW4"
 			(at 190.5 45.72 0)
 			(effects
 				(font
@@ -8143,7 +5795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyboard_jsa:ChocV1_Hotswap"
+		(property "Footprint" "keyboard_jsa:ChocV1_Solder"
 			(at 190.5 45.72 0)
 			(effects
 				(font
@@ -8179,7 +5831,7 @@
 		(instances
 			(project "JustType"
 				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "SW16")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -8195,7 +5847,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "def29516-4c2b-4883-b6ea-a5a95b1c6b49")
-		(property "Reference" "SW23"
+		(property "Reference" "SW17"
 			(at 205.74 81.28 0)
 			(effects
 				(font
@@ -8212,7 +5864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyboard_jsa:ChocV1_Hotswap"
+		(property "Footprint" "keyboard_jsa:ChocV1_Solder"
 			(at 205.74 81.28 0)
 			(effects
 				(font
@@ -8248,7 +5900,7 @@
 		(instances
 			(project "JustType"
 				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "SW23")
+					(reference "SW17")
 					(unit 1)
 				)
 			)
@@ -8264,7 +5916,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1622b91-16a4-4d84-bfae-66ebb5cc6f3c")
-		(property "Reference" "SW13"
+		(property "Reference" "SW15"
 			(at 175.26 81.28 0)
 			(effects
 				(font
@@ -8281,7 +5933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyboard_jsa:ChocV1_Hotswap"
+		(property "Footprint" "keyboard_jsa:ChocV1_Solder"
 			(at 175.26 81.28 0)
 			(effects
 				(font
@@ -8317,7 +5969,7 @@
 		(instances
 			(project "JustType"
 				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "SW13")
+					(reference "SW15")
 					(unit 1)
 				)
 			)
@@ -8333,7 +5985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f52a4c69-21bd-4aa7-b4d4-8fddc8b52982")
-		(property "Reference" "SW2"
+		(property "Reference" "SW7"
 			(at 144.78 63.5 0)
 			(effects
 				(font
@@ -8350,7 +6002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyboard_jsa:ChocV1_Hotswap"
+		(property "Footprint" "keyboard_jsa:ChocV1_Solder"
 			(at 144.78 63.5 0)
 			(effects
 				(font
@@ -8386,7 +6038,7 @@
 		(instances
 			(project "JustType"
 				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "SW2")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -8401,7 +6053,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb105d04-e356-44f4-a89a-c366bbaea8d9")
-		(property "Reference" "D2"
+		(property "Reference" "D7"
 			(at 147.32 73.6601 90)
 			(effects
 				(font
@@ -8420,7 +6072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "keyboard_jsa:D3_SMD_v2"
 			(at 145.415 72.39 0)
 			(effects
 				(font
@@ -8474,7 +6126,7 @@
 		(instances
 			(project "JustType"
 				(path "/6e8e757a-c6cb-4b52-bdb0-ff823309d752"
-					(reference "D2")
+					(reference "D7")
 					(unit 1)
 				)
 			)
